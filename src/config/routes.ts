@@ -20,7 +20,7 @@ const routes: RouteType[] = [
         path: "/Dashboard",
         component: Dashboard,
         name: "Dashboard",
-        protected: false,
+        protected: true,
     },
     {
         path: "/About",
